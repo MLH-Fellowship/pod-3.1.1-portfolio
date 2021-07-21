@@ -1,0 +1,14 @@
+<h2>Resume/CV</h2>
+<div class="card-container">
+    {% for item in site.data.resume %}
+    <div class="card">
+      <div class="icon">
+        <img src="./assets/img/resume/cv.png">
+      </div>
+      <div class="info">
+        <p class="title"><a href="{{ item.link }}"target="_blank" rel="noopener noreferrer">{{ item.site }}</a></p>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  
