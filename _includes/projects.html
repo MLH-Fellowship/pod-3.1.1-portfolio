@@ -3,7 +3,7 @@
   
   {% for item in site.data.projects %}
   {% if item.page-name %}
-  <a id="p1" href="/projects/{{ item.page-name }}">
+  <a id="p1" href="/projects/{{ item.page-name }}"/>
 
     {% else %}
     <a>
@@ -13,7 +13,8 @@
           <p class="title">{{ item.title }}</p>
           <p class="location">{{ item.event }}</p>
           <p class="dates">{{ item.date }}</p>
-        </div>
+          <p class="dates">{{ item.date }}</p>
+        </div>        
       </div>
     </a>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
