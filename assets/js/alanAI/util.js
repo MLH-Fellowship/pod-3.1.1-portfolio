@@ -45,7 +45,9 @@ const htmlToJson = (div, obj) => {
   return tag;
 };
 
-const getProjectJSON = () => {};
+const getProjectJSON = () => {
+  projectPage = document.getElementById("");
+};
 
 const openSocial = (social) => {
   const linkedIn = "https://linkedin.com/";
