@@ -2,6 +2,27 @@
  *  @Utility Functions For Alan AI *
  ***********************************/
 
+const openSocial = (social) => {
+  /* Add you social Links Here */
+  const linkedIn = "https://linkedin.com/";
+  const gitHub = "https://github.com/";
+
+  /* Duplicate this if-else Block if you added another socail medial link */
+  if (social == "LinkedIn") {
+    const LINK = document.createElement("a");
+    LINK.href = linkedIn;
+    LINK.target = "_blank";
+    LINK.click();
+    document.body.removeChild(LINK);
+  } else if (social == "GitHub") {
+    const LINK = document.createElement("a");
+    LINK.href = gitHub;
+    LINK.target = "_blank";
+    LINK.click();
+    document.body.removeChild(LINK);
+  }
+};
+
 const downloadResume = () => {
   let resumeLink;
   if (document.getElementById("resume-link"))
@@ -47,22 +68,4 @@ const htmlToJson = (div, obj) => {
 
 const getProjectJSON = () => {
   projectPage = document.getElementById("");
-};
-
-const openSocial = (social) => {
-  const linkedIn = "https://linkedin.com/";
-  const gitHub = "https://github.com/";
-  if (social == "LinkedIn") {
-    const LINK = document.createElement("a");
-    LINK.href = linkedIn;
-    LINK.target = "_blank";
-    LINK.click();
-    document.body.removeChild(LINK);
-  } else if (social == "GitHub") {
-    const LINK = document.createElement("a");
-    LINK.href = gitHub;
-    LINK.target = "_blank";
-    LINK.click();
-    document.body.removeChild(LINK);
-  }
 };

@@ -1,3 +1,5 @@
+**_NOTE: To intergrate AlanAI with your credentials and make it work please refer to [this](/assets/js/alanAI/alanReadme.md) readme_**
+
 # Portfolio Template
 
 This is a Jekyll website template designed for Pre Fellowship Fellows. During the Pre Fellowship, you'll build a project
@@ -12,6 +14,7 @@ This is a Jekyll website template designed for Pre Fellowship Fellows. During th
     1. Change `url` to the URL you'll be hosting it at
     2. Make sure it has the /
 3. Use something like Netlify or GitHub Pages to deploy (note, this only works on username.github.io, not username.github.io/repo-name)
+
 
 ## Add your portfolio
 
