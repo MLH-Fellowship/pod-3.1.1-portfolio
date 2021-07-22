@@ -3,6 +3,11 @@
  * creating a project on https://alan.app/platform#alan-studio
  */
 
+intent("What can yo do", "What can I do here", (p) => {
+  p.play(
+    "You can ask me to download the resume, go to Github or LinkedIn, show you one of the projects etc"
+  );
+});
 intent("(Download|Show me) the Resume", (p) => {
   p.play({ command: "resumeCommand" });
 });
