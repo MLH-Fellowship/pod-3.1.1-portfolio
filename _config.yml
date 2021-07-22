@@ -1,11 +1,14 @@
 title: "Will Russell"
 email: fellowship@mlh.io
+role: "Software Developer"
+employer: "Cool Company"
+bio_text: "This is an example of some bio text that may be placed below the job title"
 description: >- # this means to ignore newlines until "baseurl:"
   This is my portfolio website!
-baseurl: "/" 
-url: "/" 
+baseurl: "/"
+url: "/"
 twitter_username: mlhacks
-github_username:  mlh-fellowship
+github_username: mlh-fellowship
 
 sass:
   sass_dir: _sass
