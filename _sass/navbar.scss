@@ -44,6 +44,13 @@
     width: 60px;
     height: 34px;
 }
+.system-theme {
+    color: var(--fg-2);
+    position: absolute;
+    top: 65px;
+    right: 25px;
+}
+
 
   /* Hide default HTML checkbox */
 .switch input {
