@@ -1,12 +1,15 @@
+@import 'theme';
 .profile {
-    background-color: #1d539f !important;
+    box-shadow : rgba(0, 0, 0, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    background-color: var(--bg-1) !important;
     text-align: center;
     height: 320px;
     margin-bottom: 50px;
     h1 {
         font-size: 50px;
         font-weight: 700;
-        color: white;
+        color: var(--fg-2);
     }
     
     img {
@@ -23,4 +26,12 @@
         margin-bottom: 30px;
         height: 200px;
     }
+    
+    #particles-js {
+        position: absolute; 
+        height: 320px;
+        width: 100%;
+    }
+
+
 }
