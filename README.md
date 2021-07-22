@@ -15,13 +15,18 @@ This is a Jekyll website template designed for Pre Fellowship Fellows. During th
 
 ## Add your portfolio
 
-Head to `_data` and fill out either `projects.yml`, `experience.yml` and `education.yml`.
+Head to `_data` and fill out either `profile.yml`, `projects.yml`, `experience.yml` and `education.yml`.
 
 Project example.
 ```yaml
 - title: Machine Learning Project
   event: MLH Fellowship Pre Fellowship - Batch 3.5
   date: Fall 2020
+```
+
+Profile example.
+```yaml
+- link: https://calendly.com/
 ```
 
 Experience example.
