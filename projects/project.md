@@ -28,47 +28,49 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 - **Aliquip ex ea commodo consequat**. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-|                                                      Dashboard Page                                                      |                                             Add a Task                                              |
+|                                                      Home Page                                                      |                                             Details Page                                             |
 | :----------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------: |
 | <img src="../assets/img/projects/tasks1.png" width="500" height="300" style="border-radius: 10px; margin-right: 100px;"> | <img src="../assets/img/projects/tasks2.png" width="500" height="300" style="border-radius: 10px;"> |
 
 <br>
 
 ## How we built it
-![Workflow](../assets/img/projects/workflow-banner.jpg)
+
+<img src="../assets/img/projects/built.jpg" align="right" alt="Size Limit logo by Anton Lovchikov" style="margin-left: 10px; border-radius: 10px;" width="200" height="178">
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-| Steps               | Execution    |
-|---------------------|--------------|
-| Step 1              |       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.        |              
-| Step 2              | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.     |              
-| Step 3              |      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.     |
-
+**Steps for Execution**
+* Lorem ipsum *dolor sit* amet, consectetur adipiscing elit, **sed do eiusmod** tempor incididunt
+* Lorem ***ipsum dolor sit amet***, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+* Excepteur sint occaecat cupidatat **non proident**
 
 
 <br>
 
-## Challenges we ran into :warning:
+## Challenges we ran into
+⚠ *Be careful, or else!*
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 
-:bangbang: **Challenge 1** <br>
-:white_check_mark: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+* **Challenge 1** <br>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 
-:bangbang: **Challenge 2** <br>
-:white_check_mark: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+* **Challenge 2** <br>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 
-:bangbang: **Challenge 3** <br>
-:white_check_mark: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-
-:bangbang: **Challenge 4** <br>
-:white_check_mark: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-
+* **Challenge 3** <br>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 
 <br>
 
+This site's source is [on GitHub](https://github.com/MLH-Fellowship/pod-3.1.1-portfolio) where you can [file issues or questions](https://github.com/MLH-Fellowship/pod-3.1.1-portfolio/issues).
 
-    
- This site's source is [on GitHub](https://github.com/18f/markdown-editor) where you can [file issues or questions](https://github.com/18F/markdown-editor/issues/new). The original [code](https://github.com/jbt/markdown-editor) was authored by James Taylor :uk:, and is now maintained by the [Federalist](https://federalist.18f.gov) team. :us:
 
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<div style="inline-block;">
+    <div style="float: left;"><lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_hlzxxlfs.json" background="transparent"  speed="1"  style="width: 100px; height: 100px;" loop autoplay></lottie-player>
+    </div>
+    <div style="float: right; padding-top: 20px;"><lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_uyplypyd.json" background="transparent"  speed="1"  style="width: 100px; height: 100px;" loop autoplay></lottie-player>
+    </div>
+</div>
