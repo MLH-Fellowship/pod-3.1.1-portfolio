@@ -1,5 +1,5 @@
 .contact {
-	background-color: var(--secondaryColor);
+	background-color: var(--bg-2);
 	border-bottom:1px solid var(--borderColor);
 	overflow:auto;
 }
@@ -9,7 +9,7 @@
     flex-direction: row;
     align-items: center;
     margin: 0 auto;
-    background-color: var(--mainColor);
+    background-color: var(--bg-2);
     border-radius: .375rem;
     /*border: .5px solid var(--fg-0);*/
     padding: 1.5em;
