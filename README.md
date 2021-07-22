@@ -44,6 +44,7 @@ Resume/CV example.
 ```yaml
 - site: Google Drive
   link: https://drive.google.com/file/d/1g6-S7w03ydWUNj_aZEpQvM7O-nabkrWM/view?usp=sharing
+  position: SDE
 ```
 ## Add project posts
 
