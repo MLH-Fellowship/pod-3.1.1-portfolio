@@ -1,10 +1,35 @@
 <header class="nav-bar">
-    <div class="nav-content">
-        <a href="{{ '/' | relative_url }}">
-            <div class="nav-logo">
+
+    <menu class="navbar">
+        <div class="nav-logo">
                 <img src="./assets/img/logo.svg" />
-            </div>
+        </div>   
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#work">Work Experiance</a></li>
+            <li><a href="#education">Education</a></li>
+    
+          </ul>
+        </div>
+    </menu>
+
+    <div class="nav-content">
+      <a href="{{ '/' | relative_url }}">
+            <!-- <div class="nav-logo">
+                <img src="./assets/img/logo.svg" />
+            </div> -->
         </a>
         
     </div>
 </header>
+
+<!-- <script src="nav.js"></script> -->
+
+

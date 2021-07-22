@@ -3,4 +3,8 @@
         <img src="./assets/img/logo.jpg">
     </div>
     <h1>{{ site.title }}</h1>
+    {% for item in site.data.profile %}
+    <h2><a href="{{ item.link }}"  target="_blank" rel="noopener noreferrer" style="color: aliceblue;">Book a Session with me!</a></h2>
+    {% endfor %}
+
 </div>
