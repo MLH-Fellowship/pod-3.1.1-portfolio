@@ -9,8 +9,8 @@ This is a Jekyll website template designed for Pre Fellowship Fellows. During th
 
 1. Use the Template button.
 2. Update `_config.yml` to contain your information.
-    1. Change `url` to the URL you'll be hosting it at
-    2. Make sure it has the /
+   1. Change `url` to the URL you'll be hosting it at
+   2. Make sure it has the /
 3. Use something like Netlify or GitHub Pages to deploy (note, this only works on username.github.io, not username.github.io/repo-name)
 
 ## Add your portfolio
@@ -62,6 +62,16 @@ layout: page
   date: Summer 2021
   page-name: project
 ```
+
+## Add Google Analytics
+
+1. Goto [Google Analytics](https://analytics.google.com) and sign up with your google account
+2. Under the Admin panel, on the bottom left side create a property
+3. Enable Universal Analytics
+4. Grab the UA-tag with the format `UA-XXXXXXXX-X`
+5. Add it to the \_config.yml file under Google Analytics
+
+You should be setup to work when deployed with a **production** environment
 
 ## Development
 
