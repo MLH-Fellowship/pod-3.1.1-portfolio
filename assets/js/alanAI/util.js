@@ -34,6 +34,15 @@ const downloadResume = () => {
   }
 };
 
+const openCalendly = () => {
+  if (document.getElementById("calendly-link")) {
+    calendly = document.getElementById("calendly-link");
+    calendly.click();
+  } else {
+    return "no calendly";
+  }
+};
+
 const alanSystemThemeToggle = () => {
   const systemTheme = document.getElementById("system-theme");
   if (systemTheme.checked) {

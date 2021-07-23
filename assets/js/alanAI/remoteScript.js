@@ -5,9 +5,14 @@
 
 intent("What can yo do", "What can I do here", (p) => {
   p.play(
-    "You can ask me to download the resume, go to Github or LinkedIn, show you one of the projects etc"
+    "You can ask me to download the resume, go to Github or LinkedIn, book a meeting on calendly, show you one of the projects etc"
   );
 });
+
+intent("Book a meeting", "open Calendly", "book meeting in calendly", (p) => {
+  p.play({ command: "calendlyCommand" });
+});
+
 intent("(Download|Show me) the Resume", (p) => {
   p.play({ command: "resumeCommand" });
 });

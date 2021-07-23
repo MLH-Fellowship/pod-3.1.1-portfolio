@@ -16,6 +16,14 @@ const alanBtnInstance = alanBtn({
       }
     }
 
+    if (commandData.command === "calendlyCommand") {
+      if (openCalendly() == "no calendly") {
+        alert("No Calendly Present");
+      } else {
+        openCalendly();
+      }
+    }
+
     if (commandData.command === "socialMediaCommand") {
       console.clear();
       console.log(commandData.social);
