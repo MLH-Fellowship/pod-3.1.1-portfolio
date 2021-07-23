@@ -1,6 +1,10 @@
-<div class="profile">
+<div class="profile" id="profilee">
     <div class="profile-picture">
         <img src="./assets/img/logo.jpg">
     </div>
     <h1>{{ site.title }}</h1>
+    {% for item in site.data.calendly %}
+    <h2><a href= "{{ item.link }}" target=_blank rel="noopener noreferrer"  id="calendly-link">Book a Session with Me!!</a></h2>
+    {% endfor %}
+
 </div>
