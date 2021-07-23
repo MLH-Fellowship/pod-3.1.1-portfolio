@@ -29,4 +29,7 @@
     <link lang='sass' rel="stylesheet" href="/assets/css/main.css">
     <link rel='icon' href='/assets/img/favicon.ico' type='image/x-icon' />
     <title>{{ site.title }}</title>
+    {% if site.google_analytics and jekyll.environment == 'production' %}
+    {% include analytics.html %}
+    {% endif %}
 </head>
