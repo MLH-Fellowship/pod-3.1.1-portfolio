@@ -16,4 +16,4 @@ sass:
 icon: /assets/img/icon.jpg
 
 # Google analytics UA code
-google-analytics: UA-XXXXXXXX-X
+google_analytics: UA-XXXXXXXX-X
