@@ -3,7 +3,7 @@
 This is a **Flutter implementation** of the *Portfolio website* designed for *Pre Fellowship Fellows*.
 
 [![Flutter Web](https://img.shields.io/badge/Flutter-Web-%2341D0FD)](https://flutter.dev/web)
-#### 🔗 [Demo Site](https://quirky-shannon-cf463d.netlify.app/#/)
+#### 🔗 [Demo Site](https://rishavnaskar-mlh-portfolio-flutter.netlify.app/)
 
 ## Requirements
 
