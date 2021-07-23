@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mlh_orientation_web/ui/pages/projects.dart';
+import 'package:mlh_orientation_web/ui/models/tile.dart';
 
 class WorkScreen extends StatelessWidget {
   @override
@@ -19,18 +19,18 @@ class WorkScreen extends StatelessWidget {
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
-            Flexible(child: ProjectDataWidget()),
-            Flexible(child: ProjectDataWidget()),
-            Flexible(child: ProjectDataWidget()),
+            Flexible(child: ProjectDataWidget("Circle Head and Founder", "Lean In Banasthali Vidyapith", "2021-2022")),
+            Flexible(child: ProjectDataWidget("Circle Head and Founder", "Lean In Banasthali Vidyapith", "2021-2022")),
+            Flexible(child: ProjectDataWidget("Circle Head and Founder", "Lean In Banasthali Vidyapith", "2021-2022")),
           ],
         ),
         SizedBox(height: 60),
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
-            Flexible(child: ProjectDataWidget()),
-            Flexible(child: ProjectDataWidget()),
-            Flexible(child: ProjectDataWidget()),
+            Flexible(child: ProjectDataWidget("Circle Head and Founder", "Lean In Banasthali Vidyapith", "2021-2022")),
+            Flexible(child: ProjectDataWidget("Circle Head and Founder", "Lean In Banasthali Vidyapith", "2021-2022")),
+            Flexible(child: ProjectDataWidget("Circle Head and Founder", "Lean In Banasthali Vidyapith", "2021-2022")),
           ],
         ),
       ],

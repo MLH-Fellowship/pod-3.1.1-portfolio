@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:mlh_orientation_web/ui/pages/projects.dart';
+import 'package:mlh_orientation_web/ui/models/tile.dart';
+
 
 class EducationScreen extends StatelessWidget {
   @override
@@ -19,18 +20,18 @@ class EducationScreen extends StatelessWidget {
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
-            Flexible(child: ProjectDataWidget()),
-            Flexible(child: ProjectDataWidget()),
-            Flexible(child: ProjectDataWidget()),
+            Flexible(child: ProjectDataWidget("Class 12", "Delhi Public School, Vasant Kunj", "2017-2018")),
+            Flexible(child: ProjectDataWidget("Class 12", "Delhi Public School, Vasant Kunj", "2017-2018")),
+            Flexible(child: ProjectDataWidget("Class 12", "Delhi Public School, Vasant Kunj", "2017-2018")),
           ],
         ),
         SizedBox(height: 60),
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
-            Flexible(child: ProjectDataWidget()),
-            Flexible(child: ProjectDataWidget()),
-            Flexible(child: ProjectDataWidget()),
+            Flexible(child: ProjectDataWidget("Class 12", "Delhi Public School, Vasant Kunj", "2017-2018")),
+            Flexible(child: ProjectDataWidget("Class 12", "Delhi Public School, Vasant Kunj", "2017-2018")),
+            Flexible(child: ProjectDataWidget("Class 12", "Delhi Public School, Vasant Kunj", "2017-2018")),
           ],
         ),
       ],
