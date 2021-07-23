@@ -28,9 +28,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 - **Aliquip ex ea commodo consequat**. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-|                                                      Home Page                                                      |                                             Details Page                                             |
-| :----------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------: |
-| <img src="../assets/img/projects/tasks1.png" width="500" height="300" style="border-radius: 10px; margin-right: 100px;"> | <img src="../assets/img/projects/tasks2.png" width="500" height="300" style="border-radius: 10px;"> |
+|                                                **Home  Page**                                          || <img src="../assets/img/projects/tasks1.png" width="500" height="300" style="border-radius: 10px; margin-right: 100px;">    | 
+
+<br>
+
+|                                              **Details Page**                                     || <img src="../assets/img/projects/tasks2.png" width="500" height="300" style="border-radius: 10px; margin-right: 100px;">| 
+
 
 <br>
 
