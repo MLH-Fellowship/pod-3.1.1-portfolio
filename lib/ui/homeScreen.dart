@@ -141,30 +141,6 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 }
 
-class ProjectsWidget extends StatelessWidget {
-  const ProjectsWidget({
-    Key key,
-  }) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Column(
-      children: [
-        Text(
-          "Projects",
-          style: TextStyle(
-              fontSize: 30, fontFamily: "Montserrat", color: Colors.black),
-        ),
-        SizedBox(height: 20),
-        ListView(
-          shrinkWrap: true,
-          children: [],
-        ),
-      ],
-    );
-  }
-}
-
 class ProfileWIdget extends StatelessWidget {
   const ProfileWIdget({
     Key key,
