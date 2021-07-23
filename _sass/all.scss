@@ -4,7 +4,7 @@
 @import 'profile';
 @import 'page';
 @import 'theme';
-
+@import 'contact';
 .card-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -83,10 +83,9 @@ a {
     
     .username {
         font-size: medium;
-        color: #404040;
+        color: var(--fg-1);
     }
 }
-
 .icon {
     width: 70px;
     height: 70px;
@@ -96,4 +95,9 @@ a {
     img {
         width: 100%;
     }
+}
+#stats-1,#stats-2{
+    width: 100%;
+    height: auto;
+    //object-fit: cover;        
 }
