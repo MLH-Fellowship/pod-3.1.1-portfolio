@@ -3,6 +3,7 @@
 This is a **Flutter implementation** of the *Portfolio website* designed for *Pre Fellowship Fellows*.
 
 [![Flutter Web](https://img.shields.io/badge/Flutter-Web-%2341D0FD)](https://flutter.dev/web)
+#### 🔗 [Demo Site](https://rishavnaskar-mlh-portfolio-flutter.netlify.app/)
 
 ## Requirements
 
@@ -36,3 +37,9 @@ flutter devices
 * Clone this repository locally
 * Run ``` flutter pub get``` to fetch all packages
 * Run ``` flutter run -d chrome ``` to run the project locally *(considering your have chrome browser installed)*
+
+## Screenshots
+
+Home Page             |  Tabs
+:-------------------------:|:-------------------------:
+![image1](https://user-images.githubusercontent.com/59786899/126806728-5ff0d408-7ee2-4e87-a189-7f7744fd8ff9.png)  |  ![image2](https://user-images.githubusercontent.com/59786899/126806866-563eb8df-4b9e-4d18-a178-c6f15b3aed63.png)
