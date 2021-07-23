@@ -1,3 +1,5 @@
+**_NOTE: To intergrate AlanAI with your credentials and make it work please refer to [this](/assets/js/alanAI/alanReadme.md) readme_**
+
 # Portfolio Template
 
 This is a Jekyll website template designed for Pre Fellowship Fellows. During the Pre Fellowship, you'll build a project
