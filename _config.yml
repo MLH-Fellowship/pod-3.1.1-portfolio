@@ -5,7 +5,7 @@ employer: "Cool Company"
 bio_text: "This is an example of some bio text that may be placed below the job title"
 description: >- # this means to ignore newlines until "baseurl:"
   This is my portfolio website!
-baseurl: "/"
+baseurl: "pod-3.1.1-portfolio"
 url: "/"
 twitter_username: mlhacks
 github_username: mlh-fellowship
